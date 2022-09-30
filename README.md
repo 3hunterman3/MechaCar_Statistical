@@ -11,7 +11,7 @@ During this project we will do the following:
 
 - T-test on coils
 
-![values](values)
+![values](values.png)
 
 ### Description
 # Metric to test
