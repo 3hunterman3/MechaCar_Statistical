@@ -1,14 +1,28 @@
-# MechaCar_Statistical
+### Overview of Project 
 
+The project is to check car data and to be able to analyze the data to review the production data and provide insights that may help the manufacturing team.
 
-Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+During this project we will do the following:
 
-Follow the instructions below to complete Deliverable 4.
+- perform linear regression analysis to identify which variables in the data predict the mpg of MechaCar prototypes.
+- Collecting summary statistics on the pounds per squarch inch of the suspension in the coils from the manufacturing lots.
+- Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+- Design a statistical study to compare the vehicle performance of the MechaCr vehciles and to be able to compare this data with other vehicles. For each analysis that I find I will provide what I learned from the data and explain the various findings.
 
-In your README, create a subheading ## Study Design: MechaCar vs Competition.
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+- T-test on coils
+
+![values](values)
+
+### Description
+# Metric to test
+From our data we will evaulate the MechaCar data in cubic inches, and in doing so we will compare the data with other competitiors
+
+# Null and Alternate Hyptothesis
+Null: would be that the MechaCar prototype averages carry a capacity that is similar to competitors vehicles that are in the same class. 
+Alternate Hypothesis: We could say that the MechaCar prototypes average carrying capacity is statistically above or below the competitors vehicles.
+
+#Statistical test 
+The test that was utilized for this was the two-sample t-test
+
+# Data we need
+The data that we would need would bethe data that carrys compartments of MechaCar prototypes and from the competitors vehicles.
